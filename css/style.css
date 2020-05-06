@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 700px;
+    background: #abeafa;
+
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    height: 100%;
+}
+
+.header .container {
+    position: relative;
+    background: cadetblue;
+}
+
+.logo {
+    position: absolute;
+    top: 24px;
+    left: 69px;
+}
+
+.welcome_block {
+    position: absolute;
+    width: 270px;
+    height: 300px;
+    background: #fff51f;
+    top: 336px;
+    left: 0px;
+}
+
+.welcome_block_header {
+    color: #333;
+    font-family: Raleway, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 85px 0px 24px 25px;
+}
+
+.welcome_block_text {
+    color: #333;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 14px;
+    padding-left: 25px;
+}
